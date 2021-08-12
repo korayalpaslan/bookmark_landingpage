@@ -1,0 +1,64 @@
+
+.nav-tabs{
+    color: $verydarkblue;
+
+    .nav-item{
+        color: $verydarkblue;
+        border-bottom: 1px solid $grayishblue-light;
+
+        &:hover,
+        &:focus {
+          color: $verydarkblue;
+          border-bottom: 1px solid $grayishblue-light;
+        }
+
+        .active{
+            border: none;
+            color: $verydarkblue;
+        }
+    }
+
+    .show > .nav-link,
+    .nav-link.active {
+      border-bottom: 3px solid $primary;
+      color: $verydarkblue;
+    }
+
+  > li {
+    width: 100%;
+    
+
+    @include breakpoint-up(large) {
+        
+      width: 33%;
+      
+  }
+
+
+  }
+
+}
+
+.nav-link {
+    color: $verydarkblue;
+    width: 75%;
+
+    @include breakpoint-up(large) {
+      width: 100%;
+    }
+
+    &:hover,
+    &:focus {
+      color: $verydarkblue;
+      border: none;
+    }
+    
+}
+
+#section-features {
+  padding-top: 3rem;
+}
+
+
+
+

@@ -1,0 +1,21 @@
+footer {
+    background-color: $verydarkblue;
+} 
+
+.footer-menu {
+    flex-direction: column;
+
+    @include breakpoint-up(medium) {
+        flex-direction: row;
+      }
+
+}
+
+.social-media {
+
+    margin-left: 0;
+    
+    @include breakpoint-up(medium) {
+        margin-left: auto;
+      }
+}

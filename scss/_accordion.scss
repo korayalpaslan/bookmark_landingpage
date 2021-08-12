@@ -1,0 +1,20 @@
+
+.accordion-menu {
+  margin-top: 5rem;
+
+  > p {
+    width: 100%;
+
+    @include breakpoint-up(large) {
+        width: 50%;
+      }
+  }
+}
+.accordion {
+
+    width: 100%;
+
+    @include breakpoint-up(large) {
+        width: 50%;
+      }
+}
